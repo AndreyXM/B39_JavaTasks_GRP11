@@ -10,6 +10,7 @@ public class week1_OddOrEven {
     // Create a method that print if an int is Odd Or Even
 
     public static void oddOrEven(int number){
+
         if( number % 2 == 0){
             System.out.println("The number " + number + " is Even.");
         }else{
