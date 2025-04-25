@@ -3,7 +3,7 @@ package anna;
 public class Week01_OddOrEven {
 
     public static void main(String[] args) {
-
+    oddOrEven(7);
 
     }
     public static void oddOrEven(int num) {
