@@ -9,7 +9,7 @@ public class week1_oddOrEven {
     public static void oddOrEven(int num){
 
         if(num == 0){
-            System.out.println(num + " is a special number");
+            System.out.println( "Is a special number");
         }else if(num % 2==0){
             System.out.println(num + " is even number");
 
