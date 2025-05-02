@@ -2,6 +2,11 @@ package laxmi;
 
 public class Week1_OddorEven {
     public static void main(String[] args) {
+        oddOrEven(5);
+        oddOrEven(8);
+        oddOrEven(0);
+        oddOrEven(-7);
+        oddOrEven(-2);
 
     }
 
