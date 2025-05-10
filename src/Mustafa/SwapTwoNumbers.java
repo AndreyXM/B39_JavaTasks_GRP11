@@ -17,7 +17,7 @@ public class SwapTwoNumbers {
 
         int c = 10;
         int d = 15;
-        int swap = 0;
+        int swap;
 
         swap = c;
         c = d;
