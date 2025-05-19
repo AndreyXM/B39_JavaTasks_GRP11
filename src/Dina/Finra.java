@@ -2,18 +2,20 @@ package Dina;
 
 public class Finra {
     public static void main(String[] args) {
-        finra(14);
-
-
+        for (int i = 1; i <= 30; i++){
+            finra(i);
+        }
     }
 
-    public static void finra(int num){
-        if ( num / 3 == 0){
-            System.out.println("FIN");
-        } else if (num / 5 == 0){
-            System.out.println("RA");
+    public static void finra(int num1){
+        if ( num1 % 3 == 0 && num1 % 5 == 0){
+            System.out.print("FINRA ");
+        } else if (num1 % 5 == 0){
+            System.out.print("RA ");
+        } else if (num1 % 3 == 0){
+            System.out.print("FIN ");
         } else {
-            System.out.println("FINRA");
+            System.out.print(num1 + " ");
         }
 
     }
@@ -21,11 +23,11 @@ public class Finra {
 /*
 FINRA :
 Write a method which prints out the numbers from 1 to 30
-but if the number is a multiple of 3,
-print "FIN" instead of the number and if the number is multiple of 5,
+but if the number is a multiple of 3, print "FIN"
+instead of the number and if the number is multiple of 5,
 print "RA" instead of the number.
-If the number is a multiple of both 3 and 5, then print "FINRA"
-instead of the number.
+If the number is a multiple of both 3 and 5,
+then print "FINRA" instead of the number.
 
 
 Example:
