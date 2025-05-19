@@ -1,6 +1,6 @@
 package Dina;
 
-public class Finra {
+public class Week2_Finra {
     public static void main(String[] args) {
         for (int i = 1; i <= 30; i++){
             finra(i);

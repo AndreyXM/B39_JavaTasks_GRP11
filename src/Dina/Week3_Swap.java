@@ -1,6 +1,6 @@
 package Dina;
 
-public class Swap {
+public class Week3_Swap {
     public static void main(String[] args) {
         int num1 = 5;
         int num2 = 10;
