@@ -1,8 +1,5 @@
 package Mustafa;
 
-import java.util.LinkedHashMap;
-import java.util.Map;
-
 public class FrequencyOfCharacters {
     public static void main(String[] args) {
         System.out.println ("frequencyOfCharacter (\"AAABBCDD\") = " + frequencyOfCharacter ("AAABBCDD"));
