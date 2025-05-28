@@ -8,6 +8,7 @@ public class ReverseNegativeNumber {
     //        result= -521
     public static void main(String[] args) {
         System.out.println(reverseNegative(-125));
+        System.out.println(reverseNegative(-963));
     }
     public static int reverseNegative(int number){
         int reversed = 0;
