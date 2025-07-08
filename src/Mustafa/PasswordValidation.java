@@ -2,10 +2,15 @@ package Mustafa;
 
 public class PasswordValidation {
     public static void main(String[] args) {
-        System.out.println (validatePassword ("PASS"));
-        System.out.println (validatePassword ("Password123@"));
-        System.out.println (validatePassword ("Ad1@"));
+        System.out.println ("**INVALID COMBINATIONS**");
         System.out.println (validatePassword (null));
+        System.out.println (validatePassword ("ALL_UPPERCASE1@"));
+        System.out.println (validatePassword ("all_lowercase1@"));
+        System.out.println (validatePassword ("Ad1@"));
+        System.out.println ("**VALID COMBINATIONS");
+        System.out.println (validatePassword ("ValidPassword1@"));
+        System.out.println (validatePassword ("AtLeast6characters@"));
+        System.out.println (validatePassword ("JavaIsFun2&"));
     }
 
     public static boolean validatePassword(String password) {
