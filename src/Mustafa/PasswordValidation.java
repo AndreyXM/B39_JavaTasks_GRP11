@@ -10,7 +10,7 @@ public class PasswordValidation {
         System.out.println ("**VALID COMBINATIONS");
         System.out.println (validatePassword ("ValidPassword1@"));
         System.out.println (validatePassword ("AtLeast6characters@"));
-        System.out.println (validatePassword ("JavaIsFun2&"));
+        System.out.println (validatePassword ("JavaIsFun2&1"));
     }
 
     public static boolean validatePassword(String password) {
