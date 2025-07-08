@@ -6,7 +6,7 @@ public class MinimumNumberArray {
 
         System.out.println ("Minimum number in Array is = " + minimumNumberArray (new int[]{15, 12, 13, 45, 50, 9}));
         System.out.println ("Minimum number in Array is = " + minimumNumberArray (new int[]{1, 8, 13, 22, 0, 33}));
-        System.out.println ("Minimum number in Array is = " + minimumNumberArray (new int[]{15, 55, -2, 1, 88, 3}));
+        System.out.println ("Minimum number in Array is = " + minimumNumberArray (new int[]{15, 55, -2, 1, 88, 3, 9}));
         System.out.println ("Minimum number in Array is = " + minimumNumberArray (new int[]{}));
 
     }
