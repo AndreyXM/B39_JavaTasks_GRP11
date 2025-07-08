@@ -6,6 +6,8 @@ public class PasswordValidation {
         System.out.println (validatePassword (null));
         System.out.println (validatePassword ("ALL_UPPERCASE1@"));
         System.out.println (validatePassword ("all_lowercase1@"));
+        System.out.println (validatePassword ("all_lowercase@"));
+        System.out.println (validatePassword ("ALL_UPPERCASE@"));
         System.out.println (validatePassword ("Ad1@"));
         System.out.println ("**VALID COMBINATIONS");
         System.out.println (validatePassword ("ValidPassword1@"));
@@ -20,6 +22,7 @@ public class PasswordValidation {
                 && password.length () >= 6
                 && password.matches (".*[a-z].*")
                 && password.matches (".*[A-Z].*")
+                && password.matches (".*[0-9].*")
                 && password.matches (".*[@#$%&*].*"));
 
     }
