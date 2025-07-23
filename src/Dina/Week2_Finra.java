@@ -18,6 +18,7 @@ public class Week2_Finra {
             System.out.print(num1 + " ");
         }
 
+
     }
 }
 /*

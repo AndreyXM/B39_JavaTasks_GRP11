@@ -2,7 +2,7 @@ package Dina;
 
 public class Week4_ReverseNegNum {
     public static void main(String[] args) {
-        int num = -125;
+        int num = -439;
         int result = reverse(num);
         System.out.println("Number: " + num);
         System.out.println("Result: " + result);

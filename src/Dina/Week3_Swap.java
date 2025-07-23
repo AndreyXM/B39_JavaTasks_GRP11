@@ -2,8 +2,8 @@ package Dina;
 
 public class Week3_Swap {
     public static void main(String[] args) {
-        int num1 = 5;
-        int num2 = 10;
+        int num1 = 34;
+        int num2 = 24;
         num1 = num1 + num2;
         num2 = num1 - num2;
         num1 = num1 - num2;
